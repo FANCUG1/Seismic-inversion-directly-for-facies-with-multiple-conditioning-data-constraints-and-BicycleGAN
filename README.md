@@ -11,7 +11,7 @@ Wenyao Fan, Xuechao Wu, Shijie Peng, Gang Liu, Qiyu Chen, Yang Li, Leonardo Azev
 
 One should prepare the python packages before running these codes:
 1. The main installed packages are: 
-Python 3.9.7, PyTorch 1.10.1, NumPy 1.23.5, openCV >= 4.5.5 and SciPy 1.9.3
+Python 3.9.7, PyTorch 1.10.1, NumPy 1.23.5, openCV >= 4.5.5, matplotlib 3.5.0 and SciPy 1.11.4
 
 2. After installing these python packages successfully, one should firstly prepare the original training dataset, which will be saved into the Dataset_syn/Dataset_Norne, including
 Facies_TI and Seismic_TI. These prior training samples can be obtained through running Create_Facies_and_Seismic_TI.py
