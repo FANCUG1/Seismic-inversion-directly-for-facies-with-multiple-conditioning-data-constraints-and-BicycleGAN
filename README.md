@@ -19,4 +19,6 @@ Facies_TI and Seismic_TI. These prior training samples can be obtained through r
 3. After preparing the training dataset, one can directly run the train.py to train the neural network, and the hyperparameters can be fine-tuned in the train.py file.
 The pretrained network, including Generator, two Discriminator, and Encoding function, will be saved into the weight document.
 Meanwhile, after per epoch is finished, one can observe the modeling results based on one testing samples.
+
+4. Note that the modeling sizes for both synthetic cases and field appliation scenarios are different, and the network structures should be modified correspondingly.
    
